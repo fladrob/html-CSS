@@ -1,0 +1,20 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: darkred;
+    font-style: italic;
+    text-align:center;
+    background-color: rgb(243, 174, 70);
+}
+h2{
+    color:darkred;
+    font-style: italic;
+    
+}
+p{  
+    font-style: italic;
+    color: rgb(33, 29, 29);
+    text-align: justify;
+    
+}

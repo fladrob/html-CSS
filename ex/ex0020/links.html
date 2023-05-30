@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+        a:active{
+            color: yellow
+        }
+
+        .fac:hover{
+            background-color: rgb(33, 33, 235);
+            color: white;
+            
+        }
+        .ins:hover{
+            background-color: rgba(101, 26, 172, 0.871);
+            color:white;
+        }
+        
+        .wpp:hover{
+            background-color: rgba(19, 175, 19, 0.884);
+            color: white;
+        }
+       a::after{
+        content:'' '↩'
+       }
+       
+        
+    </style>
+</head>
+<body>
+    <li><a href="" class="fac">Facebook</a></li>
+    <li><a href="" class="ins">Instagram</a></li>
+    <li><a href="" class="wpp">WhatsApp</a></li>
+</body>
+</html>
